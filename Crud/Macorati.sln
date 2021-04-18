@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macorati", "Macorati\Macorati.csproj", "{0D3A7C3E-2537-42B9-9A57-FF06A78D56AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D3A7C3E-2537-42B9-9A57-FF06A78D56AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3A7C3E-2537-42B9-9A57-FF06A78D56AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3A7C3E-2537-42B9-9A57-FF06A78D56AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3A7C3E-2537-42B9-9A57-FF06A78D56AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80DFEA06-D21F-449F-BCA9-B378C611F9B8}
+	EndGlobalSection
+EndGlobal

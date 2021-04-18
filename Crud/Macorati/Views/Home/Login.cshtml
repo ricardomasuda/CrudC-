@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+@model  Macorati.Models.Login  
+
+
+<div class="container">
+
+    <div class="content">
+        <!--FORMULÁRIO DE LOGIN-->
+        <div id="login">
+            @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+            {
+                <h1>Login</h1>
+                <p>
+                    <label>Seu E-mail</label>
+                    <input type="text" name="Email" />
+                </p>
+                <p>
+                    <label>Sua Senha</label>
+                    <input type="password" name="Senha" />
+                </p>
+                <input type="submit" value="Entrar" />
+            }
+
+        </div>
+    </div>
+</div>

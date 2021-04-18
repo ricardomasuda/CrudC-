@@ -1,0 +1,23 @@
+﻿@model Lanches
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="card card-primary card-outline">
+    <div class="card-header">
+        <h3 class="card-title">Lanche</h3>
+    </div>
+    <!-- /.card-header -->
+    @*@foreach (var lanche in Model.LanchesList)
+    {
+        <div>
+            <h4>Lanche: @lanche.Nome </h4>
+            <p><img src="@lanche.Imagemurl" /></p>
+            <p>Preço : "@lanche.Preco.ToString()"</p>
+        </div>
+    }*@
+     
+    <!-- /.card-body -->
+</div>
